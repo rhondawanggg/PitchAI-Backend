@@ -1,0 +1,13 @@
+# File: backend/requirements.txt
+
+fastapi
+uvicorn[standard]
+python-dotenv
+asyncpg
+sqlalchemy
+httpx
+openai  # DeepSeek uses OpenAI-compatible API
+PyPDF2  # For PDF text extraction
+supabase
+pydantic
+pydantic-settings
