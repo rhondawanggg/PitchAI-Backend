@@ -27,7 +27,9 @@ app.add_middleware(
         "http://127.0.0.1:3000",  # Alternative localhost
         "http://localhost:3001",  # Mock server
         "http://127.0.0.1:3001",  # Alternative localhost
+        "*",  
         "https://rhondawanggg.github.io",
+        "https://pitchai-backend.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
