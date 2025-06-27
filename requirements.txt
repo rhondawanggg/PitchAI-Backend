@@ -10,4 +10,7 @@ openai  # DeepSeek uses OpenAI-compatible API
 PyPDF2  # For PDF text extraction
 supabase
 pydantic
-pydantic-settingspython-multipart
+pydantic-settings
+python-multipart
+
+python-multipart
